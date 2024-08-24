@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EF4346A2C7965FC00889C39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF434692C7965FC00889C39 /* AppDelegate.swift */; };
+		7EF4346C2C7965FC00889C39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF4346B2C7965FC00889C39 /* SceneDelegate.swift */; };
+		7EF4346E2C7965FC00889C39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF4346D2C7965FC00889C39 /* ViewController.swift */; };
+		7EF434712C7965FC00889C39 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7EF434702C7965FC00889C39 /* Base */; };
+		7EF434732C7965FE00889C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF434722C7965FE00889C39 /* Assets.xcassets */; };
+		7EF434762C7965FE00889C39 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7EF434752C7965FE00889C39 /* Base */; };
+		7EF434812C7965FE00889C39 /* HappyBirthdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF434802C7965FE00889C39 /* HappyBirthdayTests.swift */; };
+		7EF4348B2C7965FE00889C39 /* HappyBirthdayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF4348A2C7965FE00889C39 /* HappyBirthdayUITests.swift */; };
+		7EF4348D2C7965FE00889C39 /* HappyBirthdayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF4348C2C7965FE00889C39 /* HappyBirthdayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EF4347D2C7965FE00889C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EF4345E2C7965FC00889C39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EF434652C7965FC00889C39;
+			remoteInfo = HappyBirthday;
+		};
+		7EF434872C7965FE00889C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EF4345E2C7965FC00889C39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EF434652C7965FC00889C39;
+			remoteInfo = HappyBirthday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EF434662C7965FC00889C39 /* HappyBirthday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyBirthday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF434692C7965FC00889C39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EF4346B2C7965FC00889C39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7EF4346D2C7965FC00889C39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EF434702C7965FC00889C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EF434722C7965FE00889C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EF434752C7965FE00889C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EF434772C7965FE00889C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF4347C2C7965FE00889C39 /* HappyBirthdayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyBirthdayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF434802C7965FE00889C39 /* HappyBirthdayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirthdayTests.swift; sourceTree = "<group>"; };
+		7EF434862C7965FE00889C39 /* HappyBirthdayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyBirthdayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF4348A2C7965FE00889C39 /* HappyBirthdayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirthdayUITests.swift; sourceTree = "<group>"; };
+		7EF4348C2C7965FE00889C39 /* HappyBirthdayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyBirthdayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EF434632C7965FC00889C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF434792C7965FE00889C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF434832C7965FE00889C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EF4345D2C7965FC00889C39 = {
+			isa = PBXGroup;
+			children = (
+				7EF434682C7965FC00889C39 /* HappyBirthday */,
+				7EF4347F2C7965FE00889C39 /* HappyBirthdayTests */,
+				7EF434892C7965FE00889C39 /* HappyBirthdayUITests */,
+				7EF434672C7965FC00889C39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EF434672C7965FC00889C39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EF434662C7965FC00889C39 /* HappyBirthday.app */,
+				7EF4347C2C7965FE00889C39 /* HappyBirthdayTests.xctest */,
+				7EF434862C7965FE00889C39 /* HappyBirthdayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EF434682C7965FC00889C39 /* HappyBirthday */ = {
+			isa = PBXGroup;
+			children = (
+				7EF434692C7965FC00889C39 /* AppDelegate.swift */,
+				7EF4346B2C7965FC00889C39 /* SceneDelegate.swift */,
+				7EF4346D2C7965FC00889C39 /* ViewController.swift */,
+				7EF4346F2C7965FC00889C39 /* Main.storyboard */,
+				7EF434722C7965FE00889C39 /* Assets.xcassets */,
+				7EF434742C7965FE00889C39 /* LaunchScreen.storyboard */,
+				7EF434772C7965FE00889C39 /* Info.plist */,
+			);
+			path = HappyBirthday;
+			sourceTree = "<group>";
+		};
+		7EF4347F2C7965FE00889C39 /* HappyBirthdayTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EF434802C7965FE00889C39 /* HappyBirthdayTests.swift */,
+			);
+			path = HappyBirthdayTests;
+			sourceTree = "<group>";
+		};
+		7EF434892C7965FE00889C39 /* HappyBirthdayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EF4348A2C7965FE00889C39 /* HappyBirthdayUITests.swift */,
+				7EF4348C2C7965FE00889C39 /* HappyBirthdayUITestsLaunchTests.swift */,
+			);
+			path = HappyBirthdayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EF434652C7965FC00889C39 /* HappyBirthday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF434902C7965FE00889C39 /* Build configuration list for PBXNativeTarget "HappyBirthday" */;
+			buildPhases = (
+				7EF434622C7965FC00889C39 /* Sources */,
+				7EF434632C7965FC00889C39 /* Frameworks */,
+				7EF434642C7965FC00889C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyBirthday;
+			productName = HappyBirthday;
+			productReference = 7EF434662C7965FC00889C39 /* HappyBirthday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EF4347B2C7965FE00889C39 /* HappyBirthdayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF434932C7965FE00889C39 /* Build configuration list for PBXNativeTarget "HappyBirthdayTests" */;
+			buildPhases = (
+				7EF434782C7965FE00889C39 /* Sources */,
+				7EF434792C7965FE00889C39 /* Frameworks */,
+				7EF4347A2C7965FE00889C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EF4347E2C7965FE00889C39 /* PBXTargetDependency */,
+			);
+			name = HappyBirthdayTests;
+			productName = HappyBirthdayTests;
+			productReference = 7EF4347C2C7965FE00889C39 /* HappyBirthdayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EF434852C7965FE00889C39 /* HappyBirthdayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EF434962C7965FE00889C39 /* Build configuration list for PBXNativeTarget "HappyBirthdayUITests" */;
+			buildPhases = (
+				7EF434822C7965FE00889C39 /* Sources */,
+				7EF434832C7965FE00889C39 /* Frameworks */,
+				7EF434842C7965FE00889C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EF434882C7965FE00889C39 /* PBXTargetDependency */,
+			);
+			name = HappyBirthdayUITests;
+			productName = HappyBirthdayUITests;
+			productReference = 7EF434862C7965FE00889C39 /* HappyBirthdayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EF4345E2C7965FC00889C39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7EF434652C7965FC00889C39 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7EF4347B2C7965FE00889C39 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7EF434652C7965FC00889C39;
+					};
+					7EF434852C7965FE00889C39 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7EF434652C7965FC00889C39;
+					};
+				};
+			};
+			buildConfigurationList = 7EF434612C7965FC00889C39 /* Build configuration list for PBXProject "HappyBirthday" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EF4345D2C7965FC00889C39;
+			productRefGroup = 7EF434672C7965FC00889C39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EF434652C7965FC00889C39 /* HappyBirthday */,
+				7EF4347B2C7965FE00889C39 /* HappyBirthdayTests */,
+				7EF434852C7965FE00889C39 /* HappyBirthdayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EF434642C7965FC00889C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF434732C7965FE00889C39 /* Assets.xcassets in Resources */,
+				7EF434762C7965FE00889C39 /* Base in Resources */,
+				7EF434712C7965FC00889C39 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF4347A2C7965FE00889C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF434842C7965FE00889C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EF434622C7965FC00889C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF4346E2C7965FC00889C39 /* ViewController.swift in Sources */,
+				7EF4346A2C7965FC00889C39 /* AppDelegate.swift in Sources */,
+				7EF4346C2C7965FC00889C39 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF434782C7965FE00889C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF434812C7965FE00889C39 /* HappyBirthdayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EF434822C7965FE00889C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF4348D2C7965FE00889C39 /* HappyBirthdayUITestsLaunchTests.swift in Sources */,
+				7EF4348B2C7965FE00889C39 /* HappyBirthdayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EF4347E2C7965FE00889C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EF434652C7965FC00889C39 /* HappyBirthday */;
+			targetProxy = 7EF4347D2C7965FE00889C39 /* PBXContainerItemProxy */;
+		};
+		7EF434882C7965FE00889C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EF434652C7965FC00889C39 /* HappyBirthday */;
+			targetProxy = 7EF434872C7965FE00889C39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EF4346F2C7965FC00889C39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EF434702C7965FC00889C39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EF434742C7965FE00889C39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EF434752C7965FE00889C39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EF4348E2C7965FE00889C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EF4348F2C7965FE00889C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF434912C7965FE00889C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZJXYAGQJQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HappyBirthday/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linda.HappyBirthday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EF434922C7965FE00889C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZJXYAGQJQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HappyBirthday/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linda.HappyBirthday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7EF434942C7965FE00889C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZJXYAGQJQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linda.HappyBirthdayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyBirthday.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyBirthday";
+			};
+			name = Debug;
+		};
+		7EF434952C7965FE00889C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZJXYAGQJQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linda.HappyBirthdayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyBirthday.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyBirthday";
+			};
+			name = Release;
+		};
+		7EF434972C7965FE00889C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZJXYAGQJQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linda.HappyBirthdayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyBirthday;
+			};
+			name = Debug;
+		};
+		7EF434982C7965FE00889C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZJXYAGQJQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linda.HappyBirthdayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyBirthday;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EF434612C7965FC00889C39 /* Build configuration list for PBXProject "HappyBirthday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF4348E2C7965FE00889C39 /* Debug */,
+				7EF4348F2C7965FE00889C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EF434902C7965FE00889C39 /* Build configuration list for PBXNativeTarget "HappyBirthday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF434912C7965FE00889C39 /* Debug */,
+				7EF434922C7965FE00889C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EF434932C7965FE00889C39 /* Build configuration list for PBXNativeTarget "HappyBirthdayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF434942C7965FE00889C39 /* Debug */,
+				7EF434952C7965FE00889C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EF434962C7965FE00889C39 /* Build configuration list for PBXNativeTarget "HappyBirthdayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF434972C7965FE00889C39 /* Debug */,
+				7EF434982C7965FE00889C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EF4345E2C7965FC00889C39 /* Project object */;
+}
