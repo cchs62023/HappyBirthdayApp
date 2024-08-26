@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "alluring_cheetah_47002_httpss.mj.runM6aTIEPViVI_happy_birthday__815fb163-b05b-4c08-acc5-325ab099bde8.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "alluring_cheetah_47002_httpss.mj.runM6aTIEPViVI_happy_birthday__815fb163-b05b-4c08-acc5-325ab099bde8 1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "alluring_cheetah_47002_httpss.mj.runM6aTIEPViVI_happy_birthday__815fb163-b05b-4c08-acc5-325ab099bde8 1 (2).png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
